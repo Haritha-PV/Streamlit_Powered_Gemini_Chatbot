@@ -28,7 +28,7 @@ st.set_page_config(
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 # Display the image at the top
-st.image("C:/Users/harit/OneDrive/Desktop/Meta Scifor technologies/Haritha-P-V_Scifor/Haritha-P-V_Scifor/Mini_Project_2/gemini.png", use_column_width=True)
+st.image("gemini.png", use_column_width=True)
 
 # Streamlit app title with styling
 st.markdown("<h1 style='text-align: center;'>Hello, How can I help you?</h1>", unsafe_allow_html=True)
